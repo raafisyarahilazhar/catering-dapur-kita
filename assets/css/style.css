@@ -288,3 +288,22 @@ thead th{
   border-radius: 999px;
   background: rgba(255,255,255,.85);
 }
+
+/* Filter buttons */
+.btn-filter{
+  border: 1px solid rgba(0,0,0,.10);
+  background: rgba(255,255,255,.75);
+  color: #6c757d;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-weight: 700;
+}
+.btn-filter:hover{
+  color: var(--brand);
+  border-color: rgba(var(--brand-rgb), .25);
+}
+.btn-filter.active{
+  background: rgba(var(--brand-rgb), .08);
+  color: var(--brand);
+  border-color: rgba(var(--brand-rgb), .25);
+}
