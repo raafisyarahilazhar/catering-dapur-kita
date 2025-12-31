@@ -307,3 +307,8 @@ thead th{
   color: var(--brand);
   border-color: rgba(var(--brand-rgb), .25);
 }
+.price-muted{
+  font-weight: 800;
+  color: #6c757d;
+}
+
